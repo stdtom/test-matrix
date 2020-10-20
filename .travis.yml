@@ -15,7 +15,6 @@ env:
 - PYVER=3.9.0 PYSHORT=39 CRYPTO=3.1.1
 
 
-env: PATH=/c/Python$PYSHORT:/c/Python$PYSHORT/Scripts:$PATH
 
 # Command to run tests, e.g. python setup.py test
 script:
