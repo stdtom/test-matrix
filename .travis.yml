@@ -18,6 +18,7 @@ env:
 
 # Command to run tests, e.g. python setup.py test
 script:
+  - export PATH=/c/Python$PYSHORT:/c/Python$PYSHORT/Scripts:$PATH
   - echo $PYVER
   - echo $PYSHORT
   - echo $CRYPTO
