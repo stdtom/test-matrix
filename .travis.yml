@@ -22,4 +22,5 @@ script:
   - echo $PYVER
   - echo $PYSHORT
   - echo $CRYPTO
+  - echo $PATH
 
